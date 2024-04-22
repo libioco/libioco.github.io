@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "EBGaramond";
+    src: url('assets/EB_Garamond/EBGaramond-VariableFont_wght.ttf') format("truetype")
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: "EBGaramond", serif;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-section {
+    background-color: #2B3C2D;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-content {
+    width: 75%;
+}
+
+.header-content h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 5rem;
+    
+}
+
+.header-content p {
+    width: 75%;
+    margin-bottom: 0px;
+}
+
+.header-links {
+    text-decoration: underline;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+a:visited {
+    color: white;
+}
