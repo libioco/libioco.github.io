@@ -7,6 +7,14 @@ html {
     font-size: 18px;
 }
 
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
 body {
     font-family: "EBGaramond", serif;
     padding: 0;
@@ -15,8 +23,8 @@ body {
 
 .hero-section {
     background-color: #2B3C2D;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     color: white;
     height: auto;
     display: flex;
@@ -24,19 +32,19 @@ body {
     justify-content: center;
 }
 
-.header-content {
+.hero-content {
     width: 75%;
+    display: flex;
+    flex-direction: row;
 }
 
 .header-content h1 {
-    margin-top: 40px;
+    margin-top: 0px;
     margin-bottom: 40px;
-    font-size: 5rem;
-    
 }
 
 .header-content p {
-    width: 75%;
+    width: 80%;
     margin-bottom: 0px;
 }
 
@@ -50,4 +58,18 @@ body {
 
 a:visited {
     color: white;
+}
+
+.subsection {
+    color: black;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-content {
+    width: 75%;
 }
