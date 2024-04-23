@@ -15,7 +15,7 @@ html {
 
 p {
     font-size: 1rem;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
 }
 
 h1, h2, h3, h4 {
@@ -69,6 +69,11 @@ body {
 
 .header-content ul {
     margin-bottom: 0px;
+    line-height: 1.5rem;
+}
+
+.header-content a {
+    color: white;
 }
 
 .header-side img {
@@ -87,14 +92,6 @@ body {
     text-align: center;
 }
 
-a {
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
 .subsection {
     color: black;
     height: auto;
@@ -107,4 +104,35 @@ a:visited {
 
 .section-content {
     width: 75%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    align-items: center;
+    height: 50px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: black;
+}
+
+.footer-links a {
+    color: black;
 }
